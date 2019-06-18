@@ -1,0 +1,24 @@
+{
+  "name": "ndarray-entropy",
+  "version": "0.1.0",
+  "description": "Calculate the entropy of an intensity image, inspired by Matlab \"entropy\" function.",
+  "main": "index.js",
+  "dependencies": {
+    "ndarray-imhist": "^0.3.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Abdelaziz18003/ndarray-entropy.git"
+  },
+  "keywords": [],
+  "author": "Abdelaziz Mokhnache",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Abdelaziz18003/ndarray-entropy/issues"
+  },
+  "homepage": "https://github.com/Abdelaziz18003/ndarray-entropy#readme"
+}
