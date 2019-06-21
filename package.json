@@ -1,6 +1,6 @@
 {
   "name": "ndarray-entropy",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Calculate the entropy of an intensity image, inspired by Matlab \"entropy\" function.",
   "main": "index.js",
   "dependencies": {
