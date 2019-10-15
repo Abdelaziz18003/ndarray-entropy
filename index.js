@@ -8,8 +8,6 @@ const defaultOptions = {
 
 function entropy (ndarray, options) {
   options = Object.assign({}, defaultOptions, options);
-  validateOptions(ndarray, options);
-
   let [, y] = imhist(ndarray, {...options, plot: false});
 
   let ySum = sum(y);
@@ -30,13 +28,6 @@ function sum (array) {
   return array.reduce((a, b) => {
     return a + b;
   }) 
-}
-
-function validateOptions (ndarray, options) {
-  const maxChannel = ndarray.shape[2] - 2;
-  if (options.channel && (options.channel > maxChannel || options.channel < 0)) {
-    throw new Error(`Channel should be in the interval [0-${maxChannel}]`)
-  }
 }
 
 module.exports = entropy;
