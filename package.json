@@ -4,7 +4,7 @@
   "description": "Calculate the entropy of an intensity image, inspired by Matlab \"entropy\" function.",
   "main": "index.js",
   "dependencies": {
-    "ndarray-imhist": "^0.4.2"
+    "ndarray-imhist": "^0.4.3"
   },
   "devDependencies": {},
   "scripts": {
